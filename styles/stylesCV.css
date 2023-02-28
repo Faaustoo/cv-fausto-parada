@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  background-color: gray;
+  margin: 0 1rem;
+  display: grid;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px black;
+  cursor: pointer;
+}
+
+.header-nav-ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 3rem;
+}
+
+.intento1 li a {
+  background-color: gray;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 3px;
+  display: block;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.intento1 li a:hover {
+  background-color: antiquewhite;
+}
+
+.intento1 li ul {
+  display: none;
+  position: absolute;
+}
+
+.intento1 li:hover ul {
+  display: block;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+header h2 {
+  font-size: 2rem;
+}
+header img {
+  border: 3px solid black;
+  border-radius: 70px;
+  box-shadow: 0px 0px 10px 0px white;
+}
+
+.cv-aside {
+  display: flex;
+}
+
+.cv-aside ul {
+  margin-top: .5rem;
+  color: black;
+}
+
+.titulo3 {
+  color: antiquewhite;
+
+  text-align: center;
+}
+.datos {
+  box-shadow: 0px 0px 10px 0px yellow;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 1.5rem auto;
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.footer-container-ul {
+  display: flex;
+  gap: 6rem;
+}
+
+
+.footer-container-ul > a {
+  display: flex;
+  gap: .6rem;
+  color: black;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+footer ul a:hover {
+  background-color: black;
+  color: white;
+}
+.titulo {
+  color: black;
+  text-align: center;
+}
+
+.titulo2 {
+  display: flex;
+}
+
+.cv-main-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+.cv-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+  max-width: 75%;
+}
+
+.cv-aside {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  min-width: 25%;
+  gap: 1rem;
+}
+.btn {
+  text-align: center;
+}
+button {
+  margin: 10px;
+  padding: 15px;
+}
+.seccion2 {
+  display: flex;
+  justify-content: center;
+}
+
+.seccion2 button {
+  max-width: fit-content;
+  background-color: antiquewhite;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px black;
+  cursor: pointer;
+}
+.seccion2 button:hover {
+  box-shadow: none;
+  background-color: black;
+  color: white;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cv-section-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 2px;
+  padding: 3px;
+}
+footer ul i {
+  font-size: 20px;
+  margin: 1px;
+  padding: 1px;
+}
+.cv-aside ul i {
+  margin: 2px;
+  padding: 2px;
+  color: black;
+}
+nav ul i {
+  margin: 2px;
+  padding: 2px;
+  color: black;
+}
